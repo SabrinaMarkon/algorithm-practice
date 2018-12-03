@@ -1,0 +1,8 @@
+[02-Dec-2018 03:27:19 UTC] PHP Fatal error:  Call to private method Queue::enqueue() from context '' in /home/phpsites/public_html/repos/algorithm-practice/php/queue.php on line 9
+[02-Dec-2018 03:35:05 UTC] PHP Fatal error:  Call to a member function dequeue() on array in /home/phpsites/public_html/repos/algorithm-practice/php/queue.php on line 14
+[02-Dec-2018 03:37:09 UTC] PHP Strict Standards:  Accessing static property Queue::$queue as non static in /home/phpsites/public_html/repos/algorithm-practice/php/classes/Queue.php on line 12
+[02-Dec-2018 03:37:09 UTC] PHP Strict Standards:  Accessing static property Queue::$queue as non static in /home/phpsites/public_html/repos/algorithm-practice/php/classes/Queue.php on line 18
+[02-Dec-2018 03:37:09 UTC] PHP Strict Standards:  Accessing static property Queue::$queue as non static in /home/phpsites/public_html/repos/algorithm-practice/php/classes/Queue.php on line 19
+[02-Dec-2018 03:38:05 UTC] PHP Fatal error:  Call to a member function dequeue() on array in /home/phpsites/public_html/repos/algorithm-practice/php/queue.php on line 14
+[02-Dec-2018 04:36:36 UTC] PHP Fatal error:  Call to a member function length() on array in /home/phpsites/public_html/repos/algorithm-practice/php/classes/Queue.php on line 37
+[02-Dec-2018 04:46:36 UTC] PHP Catchable fatal error:  Object of class Queue could not be converted to string in /home/phpsites/public_html/repos/algorithm-practice/php/queue.php on line 36
