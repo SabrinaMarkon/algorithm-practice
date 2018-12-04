@@ -1,5 +1,5 @@
 <?php
-/* A queue if FIFO (first in, first out), much like a lineup in a store. Whoever was in the lineup first is also the person to checkout first. */
+/* A queue is FIFO (first in, first out), much like a lineup in a store. Whoever was in the lineup first is also the person to checkout first. */
 
 class Queue {
 
