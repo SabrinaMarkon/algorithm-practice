@@ -9,41 +9,74 @@ class PriorityQueue {
     private $highpriorityqueue = [];
     private $lowpriorityqueue = [];
 
-    public function __construct($priorityqueue) {
+    // constructor to initialize the queue we want to use.
+    public function __construct($existingqueue,$ishighpriority) {
 
-        $this->highpriorityqueue = $priorityqueue;
-        $this->lowpriorityqueue = $priorityqueue;
-
-    }
-
-    public function enqueue($item) {
-
-        array_unshift($this->priorityqueue,$item);
-        return $this->priorityqueue;
-    }
-
-    public function dequeue() {
+        $this->ishighpriority = $ishighpriority;
         
-        array_pop($this->priorityqueue);
-        return $this->priorityqueue;
+       if ($ishighpriority) {
+
+            $this->highpriorityqueue = $existingqueue;
+            $this->lowpriorityqueue = [];
+
+       } else {
+
+            $this->highpriorityqueue = [];
+            $this->lowpriorityqueue = $existingqueue;
+
+       }
+
+       print_r($this->highpriorityqueue); // Nigel, Squeebz, Benji
+       print_r($this->lowpriorityqueue); // nothing yet
     }
 
-    public function peek() {
+    public function enqueue($item,$ishighpriority = false) {
+        
+        if ($ishighpriority) {
 
-        return $this->priorityqueue[sizeof($this->priorityqueue - 1) ];
+            array_push($this->highpriorityqueue,$item);
+        
+        } else {
+
+            array_push($this->lowpriorityqueue,$item);
+        } 
+        
+        return $this;        
     }
+
+    // public function dequeue() {
+        
+    //     if (!$this->highpriorityqueue.isEmpty()) {
+            
+    //         array_shift($this->highpriorityqueue);
+    //         return $this->highpriorityqueue;
+            
+    //     } 
+        
+    //     array_shift($this->lowpriorityqueue);
+    //     return $this->lowpriorityqueue;
+    // }
+
+    // public function peek($item) {
+
+
+    //     if (!$this->highpriorityqueue.isEmpty()) {
+            
+    //         return $this->highpriorityqueue[0]; 
+
+    //     }
+        
+    //     return $this->lowpriorityqueue[0];
+    // }
     
-    public function getLength() {
+    // public function length() {
 
-        return sizeof($this->priorityqueue);
-    }
+    //     return sizeof($this->highpriorityqueue) + sizeof($this->lowpriorityqueue);
+    // }
     
-    public function isEmpty() {
+    // public function isEmpty() {
 
-        return sizeof($this->priorityqueue) === 0;
-    }
-
-
-
+    //     return $this->highpriorityqueue->isEmpty() && $this->lowpriorityqueue->isEmpty();
+    // }
     
 }

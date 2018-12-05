@@ -1,8 +1,61 @@
-[02-Dec-2018 03:27:19 UTC] PHP Fatal error:  Call to private method Queue::enqueue() from context '' in /home/phpsites/public_html/repos/algorithm-practice/php/queue.php on line 9
-[02-Dec-2018 03:35:05 UTC] PHP Fatal error:  Call to a member function dequeue() on array in /home/phpsites/public_html/repos/algorithm-practice/php/queue.php on line 14
-[02-Dec-2018 03:37:09 UTC] PHP Strict Standards:  Accessing static property Queue::$queue as non static in /home/phpsites/public_html/repos/algorithm-practice/php/classes/Queue.php on line 12
-[02-Dec-2018 03:37:09 UTC] PHP Strict Standards:  Accessing static property Queue::$queue as non static in /home/phpsites/public_html/repos/algorithm-practice/php/classes/Queue.php on line 18
-[02-Dec-2018 03:37:09 UTC] PHP Strict Standards:  Accessing static property Queue::$queue as non static in /home/phpsites/public_html/repos/algorithm-practice/php/classes/Queue.php on line 19
-[02-Dec-2018 03:38:05 UTC] PHP Fatal error:  Call to a member function dequeue() on array in /home/phpsites/public_html/repos/algorithm-practice/php/queue.php on line 14
-[02-Dec-2018 04:36:36 UTC] PHP Fatal error:  Call to a member function length() on array in /home/phpsites/public_html/repos/algorithm-practice/php/classes/Queue.php on line 37
-[02-Dec-2018 04:46:36 UTC] PHP Catchable fatal error:  Object of class Queue could not be converted to string in /home/phpsites/public_html/repos/algorithm-practice/php/queue.php on line 36
+[04-Dec-2018 21:54:35 UTC] PHP Warning:  include(/classes/Queue.php): failed to open stream: No such file or directory in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 3
+[04-Dec-2018 21:54:35 UTC] PHP Warning:  include(/classes/Queue.php): failed to open stream: No such file or directory in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 3
+[04-Dec-2018 21:54:35 UTC] PHP Warning:  include(): Failed opening '/classes/Queue.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 3
+[04-Dec-2018 21:54:35 UTC] PHP Warning:  include(/classes/PriorityQueue.php): failed to open stream: No such file or directory in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 4
+[04-Dec-2018 21:54:35 UTC] PHP Warning:  include(/classes/PriorityQueue.php): failed to open stream: No such file or directory in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 4
+[04-Dec-2018 21:54:35 UTC] PHP Warning:  include(): Failed opening '/classes/PriorityQueue.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 4
+[04-Dec-2018 21:54:35 UTC] PHP Fatal error:  Class 'PriorityQueue' not found in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 8
+[04-Dec-2018 21:55:21 UTC] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 16
+[04-Dec-2018 21:57:17 UTC] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 25
+[04-Dec-2018 22:05:09 UTC] PHP Fatal error:  Call to a member function enqueue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 16
+[04-Dec-2018 22:17:51 UTC] PHP Fatal error:  Call to a member function enqueue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 16
+[04-Dec-2018 22:18:29 UTC] PHP Fatal error:  Call to a member function enqueue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 16
+[04-Dec-2018 22:25:24 UTC] PHP Strict Standards:  Declaration of PriorityQueue::peek() should be compatible with Queue::peek($item) in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 55
+[04-Dec-2018 22:25:24 UTC] PHP Fatal error:  Call to a member function enqueue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 22
+[04-Dec-2018 22:27:15 UTC] PHP Fatal error:  Call to a member function enqueue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 22
+[04-Dec-2018 23:26:00 UTC] PHP Warning:  Missing argument 1 for Queue::enqueue(), called in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 22 and defined in /home/phpsites/public_html/repos/algorithm-practice/php/classes/Queue.php on line 16
+[04-Dec-2018 23:26:00 UTC] PHP Fatal error:  Call to a member function dequeue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 15
+[04-Dec-2018 23:26:25 UTC] PHP Fatal error:  Call to a member function dequeue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 15
+[04-Dec-2018 23:28:21 UTC] PHP Warning:  include(./classes/queue.php): failed to open stream: No such file or directory in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 4
+[04-Dec-2018 23:28:21 UTC] PHP Warning:  include(./classes/queue.php): failed to open stream: No such file or directory in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 4
+[04-Dec-2018 23:28:21 UTC] PHP Warning:  include(): Failed opening './classes/queue.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 4
+[04-Dec-2018 23:29:52 UTC] PHP Fatal error:  Class 'queue' not found in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 5
+[04-Dec-2018 23:30:21 UTC] PHP Fatal error:  Class 'PriorityQueue' not found in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 5
+[04-Dec-2018 23:30:54 UTC] PHP Fatal error:  Class 'Queue' not found in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 7
+[04-Dec-2018 23:31:17 UTC] PHP Fatal error:  Call to a member function dequeue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 15
+[05-Dec-2018 00:18:57 UTC] PHP Fatal error:  Call to a member function dequeue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 15
+[05-Dec-2018 00:19:27 UTC] PHP Fatal error:  Call to a member function dequeue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 15
+[05-Dec-2018 01:46:23 UTC] PHP Fatal error:  Call to a member function dequeue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 15
+[05-Dec-2018 01:46:25 UTC] PHP Fatal error:  Call to a member function dequeue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 15
+[05-Dec-2018 01:46:26 UTC] PHP Fatal error:  Call to a member function dequeue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 15
+[05-Dec-2018 01:46:26 UTC] PHP Fatal error:  Call to a member function dequeue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 15
+[05-Dec-2018 01:46:26 UTC] PHP Fatal error:  Call to a member function dequeue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 15
+[05-Dec-2018 01:50:19 UTC] PHP Parse error:  syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 24
+[05-Dec-2018 01:51:16 UTC] PHP Fatal error:  Call to a member function enqueue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 24
+[05-Dec-2018 01:54:29 UTC] PHP Fatal error:  Call to a member function enqueue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 24
+[05-Dec-2018 01:54:31 UTC] PHP Fatal error:  Call to a member function enqueue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 24
+[05-Dec-2018 02:00:34 UTC] PHP Fatal error:  Call to a member function enqueue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 24
+[05-Dec-2018 02:00:41 UTC] PHP Fatal error:  Call to a member function enqueue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 24
+[05-Dec-2018 02:05:00 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/phpsites/public_html/repos/algorithm-practice/php/classes/Queue.php on line 24
+[05-Dec-2018 02:05:46 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/phpsites/public_html/repos/algorithm-practice/php/classes/Queue.php on line 24
+[05-Dec-2018 02:06:32 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/phpsites/public_html/repos/algorithm-practice/php/classes/Queue.php on line 23
+[05-Dec-2018 02:06:40 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/phpsites/public_html/repos/algorithm-practice/php/classes/Queue.php on line 23
+[05-Dec-2018 02:08:33 UTC] PHP Fatal error:  Call to a member function enqueue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 22
+[05-Dec-2018 02:49:08 UTC] PHP Fatal error:  Class 'Queue' not found in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 7
+[05-Dec-2018 02:49:13 UTC] PHP Fatal error:  Class 'Queue' not found in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 7
+[05-Dec-2018 02:49:42 UTC] PHP Warning:  array_push() expects at least 2 parameters, 1 given in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 16
+[05-Dec-2018 02:49:42 UTC] PHP Fatal error:  Call to a member function dequeue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 14
+[05-Dec-2018 02:52:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 16
+[05-Dec-2018 02:52:37 UTC] PHP Fatal error:  Call to a member function dequeue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 14
+[05-Dec-2018 02:53:43 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 18
+[05-Dec-2018 02:53:43 UTC] PHP Fatal error:  Call to a member function dequeue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 14
+[05-Dec-2018 02:53:46 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 18
+[05-Dec-2018 02:53:47 UTC] PHP Fatal error:  Call to a member function dequeue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 14
+[05-Dec-2018 02:53:54 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 18
+[05-Dec-2018 02:53:54 UTC] PHP Fatal error:  Call to a member function dequeue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 14
+[05-Dec-2018 03:05:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 36
+[05-Dec-2018 03:05:34 UTC] PHP Fatal error:  Call to a member function dequeue() on null in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 14
+[05-Dec-2018 03:07:24 UTC] PHP Fatal error:  Call to a member function dequeue() on array in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 14
+[05-Dec-2018 03:09:09 UTC] PHP Fatal error:  Call to undefined method PriorityQueue::enqueue() in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 9
+[05-Dec-2018 03:09:50 UTC] PHP Fatal error:  Call to undefined method PriorityQueue::enqueue() in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 9
+[05-Dec-2018 03:10:53 UTC] PHP Fatal error:  Call to undefined method PriorityQueue::dequeue() in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 14

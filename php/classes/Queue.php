@@ -22,11 +22,11 @@ class Queue {
     // dequeue. (remove the first item from the queue)
     public function dequeue() {
 
-        array_shift($this->queue); // note when we remove an item from the start of the queue, the indices are renumbered!!
+        array_shift($this->queue); // note when we remove an item from the start of the queue, the indices are renumbered!! O(n) (linked list better)
         return $this;
     }
 
-    // peek. (look at the next to the one we are looking at already)
+    // peek. (look at the next to the one we are looking at already) 
     public function peek($item) {
 
         // get the current index.
