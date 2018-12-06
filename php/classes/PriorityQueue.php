@@ -26,8 +26,8 @@ class PriorityQueue {
 
        }
 
-       print_r($this->highpriorityqueue); // Nigel, Squeebz, Benji
-       print_r($this->lowpriorityqueue); // nothing yet
+    //    print_r($this->highpriorityqueue); // Nigel, Squeebz, Benji
+    //    print_r($this->lowpriorityqueue); // nothing yet
     }
 
     public function enqueue($item,$ishighpriority = false) {
@@ -45,16 +45,21 @@ class PriorityQueue {
     }
 
     public function dequeue() {
-        
-        if (!$this->highpriorityqueue->isEmpty()) {
+
+        if (!$this->isEmpty()) {
             
-            array_shift($this->highpriorityqueue);
-            return $this->highpriorityqueue;
-            
+            if ($this->ishighpriority) {
+
+                array_shift($this->highpriorityqueue);
+                return $this->highpriorityqueue;
+
+            } else {
+
+                array_shift($this->lowpriorityqueue);
+                return $this->lowpriorityqueue;
+
+            }  
         } 
-        
-        array_shift($this->lowpriorityqueue);
-        return $this->lowpriorityqueue;
     }
 
     // public function peek($item) {
@@ -76,7 +81,7 @@ class PriorityQueue {
     
     public function isEmpty() {
 
-        return 1;
+        return sizeof($this->highpriorityqueue) && sizeof($this->lowpriorityqueue);
     }
     
 }
