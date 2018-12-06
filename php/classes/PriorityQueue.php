@@ -44,18 +44,18 @@ class PriorityQueue {
         return $this;        
     }
 
-    // public function dequeue() {
+    public function dequeue() {
         
-    //     if (!$this->highpriorityqueue.isEmpty()) {
+        if (!$this->highpriorityqueue->isEmpty()) {
             
-    //         array_shift($this->highpriorityqueue);
-    //         return $this->highpriorityqueue;
+            array_shift($this->highpriorityqueue);
+            return $this->highpriorityqueue;
             
-    //     } 
+        } 
         
-    //     array_shift($this->lowpriorityqueue);
-    //     return $this->lowpriorityqueue;
-    // }
+        array_shift($this->lowpriorityqueue);
+        return $this->lowpriorityqueue;
+    }
 
     // public function peek($item) {
 
@@ -74,9 +74,9 @@ class PriorityQueue {
     //     return sizeof($this->highpriorityqueue) + sizeof($this->lowpriorityqueue);
     // }
     
-    // public function isEmpty() {
+    public function isEmpty() {
 
-    //     return $this->highpriorityqueue->isEmpty() && $this->lowpriorityqueue->isEmpty();
-    // }
+        return 1;
+    }
     
 }

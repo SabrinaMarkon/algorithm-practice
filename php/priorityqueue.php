@@ -11,10 +11,10 @@ echo "<font color=blue>Enqueued Bean:</font> ";
 print_r($priorityqueue);
 echo "<br><br>";
 
-// $priorityqueue = $priorityqueue->dequeue(); // should result in ['Squeebz','Benji','Bean']
-// echo "<font color=blue>Dequeued Nigel:(</font> ";
-// print_r($priorityqueue);
-// echo "<br><br>";
+$priorityqueue = $priorityqueue->dequeue(); // should result in ['Squeebz','Benji','Bean']
+echo "<font color=blue>Dequeued Nigel:(</font> ";
+print_r($priorityqueue);
+echo "<br><br>";
 
 // $nextvalue = $priorityqueue->peek(); // should result in 'Squeebz'
 // echo "<font color=blue>First in Line (next to be served):</font> ";
