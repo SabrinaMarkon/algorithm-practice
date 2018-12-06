@@ -71,3 +71,5 @@
 [06-Dec-2018 07:22:30 UTC] PHP Fatal error:  Call to a member function isEmpty() on array in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 51
 [06-Dec-2018 07:23:16 UTC] PHP Fatal error:  Call to a member function isEmpty() on array in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 49
 [06-Dec-2018 07:23:51 UTC] PHP Fatal error:  Call to a member function isEmpty() on array in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 51
+[06-Dec-2018 07:33:11 UTC] PHP Fatal error:  Call to a member function peek() on array in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 19
+[06-Dec-2018 07:34:51 UTC] PHP Fatal error:  Call to a member function peek() on array in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 21

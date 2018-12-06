@@ -51,28 +51,34 @@ class PriorityQueue {
             if ($this->ishighpriority) {
 
                 array_shift($this->highpriorityqueue);
-                return $this->highpriorityqueue;
+                return $this;
 
             } else {
 
                 array_shift($this->lowpriorityqueue);
-                return $this->lowpriorityqueue;
+                return $this;
 
             }  
         } 
     }
 
-    // public function peek($item) {
+    public function peek() {
 
-
-    //     if (!$this->highpriorityqueue.isEmpty()) {
+        if (!$this->isEmpty()) {
             
-    //         return $this->highpriorityqueue[0]; 
+            if ($this->ishighpriority) {
 
-    //     }
+                return $this->highpriorityqueue[0];
+
+            } else {
+
+                return $this->lowpriorityqueue[0];
+
+            }  
+        } 
         
-    //     return $this->lowpriorityqueue[0];
-    // }
+        return $this->lowpriorityqueue[0];
+    }
     
     // public function length() {
 

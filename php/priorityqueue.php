@@ -16,10 +16,10 @@ echo "<font color=blue>Dequeued Nigel:(</font> ";
 print_r($priorityqueue);
 echo "<br><br>";
 
-// $nextvalue = $priorityqueue->peek(); // should result in 'Squeebz'
-// echo "<font color=blue>First in Line (next to be served):</font> ";
-// print($nextvalue);
-// echo "<br><br>";
+$nextvalue = $priorityqueue->peek(); // should result in 'Squeebz'
+echo "<font color=blue>First in Line (next to be served):</font> ";
+print($nextvalue);
+echo "<br><br>";
 
 // $length = $priorityqueue->length(); // should result in 3 (was 4 with Nigel before he was dequeued :(
 // echo "<font color=blue>Length of Queue Now:</font> ";
