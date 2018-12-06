@@ -80,10 +80,10 @@ class PriorityQueue {
         return $this->lowpriorityqueue[0];
     }
     
-    // public function length() {
+    public function length() {
 
-    //     return sizeof($this->highpriorityqueue) + sizeof($this->lowpriorityqueue);
-    // }
+        return sizeof($this->highpriorityqueue) + sizeof($this->lowpriorityqueue);
+    }
     
     public function isEmpty() {
 

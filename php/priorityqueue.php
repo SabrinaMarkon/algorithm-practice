@@ -21,15 +21,20 @@ echo "<font color=blue>First in Line (next to be served):</font> ";
 print($nextvalue);
 echo "<br><br>";
 
-// $length = $priorityqueue->length(); // should result in 3 (was 4 with Nigel before he was dequeued :(
-// echo "<font color=blue>Length of Queue Now:</font> ";
-// print($length);
-// echo "<br><br>";
+$length = $priorityqueue->length(); // should result in 3 (was 4 with Nigel before he was dequeued :(
+echo "<font color=blue>Length of Queue Now:</font> ";
+print($length);
+echo "<br><br>";
 
-// $isqueueempty = $priorityqueue->isEmpty(); // should be 1, meaning it is not empty.
-// echo "<font color=blue>Is the Queue Empty?:</font> ";
+$queuehasitems = $priorityqueue->isEmpty(); // should be 1, meaning it is not empty.
+echo "<font color=blue>Are Both High and Low Priority Queues Empty?:</font> ";
+if ($queuehasitems) {
+    echo "Yes";
+} else {
+    echo "No";
+}
 // print($isqueueempty);
-// echo "<br><br>"; 
+echo "<br><br>"; 
 
 // $priorityqueue = $priorityqueue->dequeue()->dequeue()->dequeue();
 // $isqueueempty = $priorityqueue->isEmpty(); // should be 0, meaning it is empty.
