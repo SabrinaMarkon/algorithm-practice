@@ -21,5 +21,9 @@ echo "Stack now: <pre>" . var_export($stack,true) . "</pre><br>";
 
 // getStack
 $newstack = $stack->getStack();
-$diff = array_diff($newstack,$starting_stack); // returns items in array1 that aren't in array2.
-print_r($diff);
+$diff = array_diff($newstack,$starting_stack); // returns items in array1 that aren't in array2. KEYS seem to be kept the same indexes.
+echo "Difference between the new stack and the starting stack: <pre>" . var_export($diff,true) . "</pre><br>";
+
+// isEmpty
+$empty = $stack->isEmpty();
+echo "The stack is " . $empty . "<br><br>";
