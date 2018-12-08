@@ -13,23 +13,34 @@ class Stack {
 
     public function push($item) {
 
-        return array_push($stack,$item);
+        array_push($this->stack,$item);
+        return $this;
+
     }
 
     public function pop() {
 
-        return array_pop($stack);
+        array_pop($this->stack);
+        return $this;
+
     }
 
     public function length() {
 
-        return sizeof($stack);
+        return sizeof($this->stack);
+
     }
 
     public function isEmpty() {
 
-        return sizeof($stack) === 0
+        return sizeof($this->stack) === 0
         ? "Empty"
         : "Not Empty";
+
+    }
+
+    public function getStack() {
+
+        return $this->stack;
     }
 }

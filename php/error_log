@@ -76,3 +76,18 @@
 [06-Dec-2018 08:11:56 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/phpsites/public_html/repos/algorithm-practice/php/classes/PriorityQueue.php on line 91
 [06-Dec-2018 08:13:24 UTC] PHP Fatal error:  Call to a member function peek() on null in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 19
 [06-Dec-2018 08:14:04 UTC] PHP Fatal error:  Call to a member function peek() on null in /home/phpsites/public_html/repos/algorithm-practice/php/priorityqueue.php on line 19
+[08-Dec-2018 06:54:35 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/phpsites/public_html/repos/algorithm-practice/php/classes/Stack.php on line 16
+[08-Dec-2018 06:54:35 UTC] PHP Fatal error:  Call to undefined function print_f() in /home/phpsites/public_html/repos/algorithm-practice/php/stack.php on line 10
+[08-Dec-2018 06:55:55 UTC] PHP Fatal error:  Call to undefined function print_f() in /home/phpsites/public_html/repos/algorithm-practice/php/stack.php on line 10
+[08-Dec-2018 07:01:59 UTC] PHP Fatal error:  Call to a member function push() on array in /home/phpsites/public_html/repos/algorithm-practice/php/stack.php on line 9
+[08-Dec-2018 07:02:20 UTC] PHP Fatal error:  Call to a member function push() on array in /home/phpsites/public_html/repos/algorithm-practice/php/stack.php on line 9
+[08-Dec-2018 07:02:25 UTC] PHP Fatal error:  Call to a member function push() on array in /home/phpsites/public_html/repos/algorithm-practice/php/stack.php on line 9
+[08-Dec-2018 07:08:28 UTC] PHP Catchable fatal error:  Object of class Stack could not be converted to string in /home/phpsites/public_html/repos/algorithm-practice/php/classes/Stack.php on line 17
+[08-Dec-2018 07:14:00 UTC] PHP Catchable fatal error:  Object of class Stack could not be converted to string in /home/phpsites/public_html/repos/algorithm-practice/php/stack.php on line 11
+[08-Dec-2018 07:18:05 UTC] PHP Warning:  array_values() expects parameter 1 to be array, object given in /home/phpsites/public_html/repos/algorithm-practice/php/stack.php on line 12
+[08-Dec-2018 07:18:05 UTC] PHP Warning:  array_values() expects parameter 1 to be array, object given in /home/phpsites/public_html/repos/algorithm-practice/php/stack.php on line 17
+[08-Dec-2018 07:19:20 UTC] PHP Fatal error:  Call to a member function length() on array in /home/phpsites/public_html/repos/algorithm-practice/php/stack.php on line 13
+[08-Dec-2018 08:16:46 UTC] PHP Warning:  array_diff(): Argument #2 is not an array in /home/phpsites/public_html/repos/algorithm-practice/php/stack.php on line 26
+[08-Dec-2018 08:17:14 UTC] PHP Warning:  array_diff(): Argument #2 is not an array in /home/phpsites/public_html/repos/algorithm-practice/php/stack.php on line 26
+[08-Dec-2018 08:17:19 UTC] PHP Warning:  array_diff(): Argument #2 is not an array in /home/phpsites/public_html/repos/algorithm-practice/php/stack.php on line 26
+[08-Dec-2018 08:22:01 UTC] PHP Warning:  array_diff(): Argument #2 is not an array in /home/phpsites/public_html/repos/algorithm-practice/php/stack.php on line 25
