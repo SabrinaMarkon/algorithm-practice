@@ -2,10 +2,11 @@
 
 class Node {
 
-    private $node;
-    private $data = null;
-    private $next = null;
+    /* need properties to be public so LinkedList class can access them */
+    public $data;
+    public $next;
 
+    /* construct node with data and pointer to next node */
     public function __construct($value = false) {
 
         $this->data = $value;
@@ -21,10 +22,11 @@ class Node {
 
 class LinkedList {
 
-    private $head = null;
-    private $tail = null;
-    private $length = 0;
+    private $head;
+    private $tail;
+    private $length;
 
+    /* Adds to the end of the linked list */
     public function push($item) {
 
         if ($head === null) {
@@ -41,12 +43,35 @@ class LinkedList {
         return $node;
     }
 
+    /* pop the item at the end of the list off */
     public function pop() {
+
+        if ($this->isEmpty()) {
+
+            return null;
+        }
+
+        const node = $this->tail;
+
+        if ($this->head === $this->tail) {
+
+            $this->head = null;
+            $this->tail = null;
+            $this->length--;
+            return node;
+        }
+    }
+
+    /* delete a node */
+    public function remove($index) {
+
+        $currentNode = $this->head;
 
 
     }
 
-    public function length() {
+    /* find out how many nodes are in the linked list */
+    public function size() {
 
 
     }
