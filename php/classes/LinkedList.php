@@ -109,10 +109,10 @@ class LinkedList {
 
     }
 
-    /* delete a node */
+    /* delete a specific node */
     public function remove($index) {
 
-        $currentNode = $this->head;
+
 
 
     }
@@ -120,6 +120,18 @@ class LinkedList {
     /* find out how many nodes are in the linked list */
     public function size() {
 
+        $count = 0; // inistialize node counter
+
+        $current = $this->head; // start at the beginning
+
+        while ($current !== null) {
+
+            $current = $current->next; // not at the end, so move to the next node.
+            $count++;
+
+        }
+
+        return $count;
 
     }
 
