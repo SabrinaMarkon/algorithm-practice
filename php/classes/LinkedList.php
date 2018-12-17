@@ -112,6 +112,36 @@ class LinkedList {
     /* delete a specific node */
     public function remove($index) {
 
+        // if the linked list has no nodes.
+        if ($this->isEmpty()) {
+
+            return null;
+        }
+
+        // if the index isn't valid.
+        if ($index < 0 || $index > $this->size() - 1) {
+
+            return null;
+        }
+
+        if ($index === 0) {
+
+            return $this->head;
+        }
+
+        
+
+        // this linked list only had one node so tail and head are the same node,
+        // regardless of what index was passed.
+        if ($this->head === $this->tail) {
+
+            $this->head = null;
+            $this->tail = null;
+            $this->length--;
+
+            return $node;
+
+        }
 
 
 
